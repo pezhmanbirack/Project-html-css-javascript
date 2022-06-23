@@ -36,16 +36,16 @@ li{
     color: #FFFFFF;
 }
 .btn-headr{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-background-color: #1565D8;
-border: 3px solid #FFFFFF;
-border-radius: 8px;
-color: #FFFFFF
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #1565D8;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF
 }
 .color-headr{
     background-color: #1565D8;
@@ -92,14 +92,14 @@ color: #FFFFFF
     left:100px ;
 }
 .item-logo p{
-color: #5A7184;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-position: relative;
-left: 99px;
+    color: #5A7184;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    left: 99px;
 }
 .text-titele{
   position: relative;
@@ -117,6 +117,7 @@ left: 99px;
 .baner-date p{
     position: relative;
     left: 71px;
+    top: 30px;
     color: #183B56;
     font-weight: bold;
     font-size: 16px;
@@ -147,59 +148,59 @@ left: 99px;
 }
 .text-button-baner{
     text-align: center;
+    padding-top: 12px;
 }
 .baner-date-date{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 20px;
-color: #5A7184;
-padding-top: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5A7184;
+    padding-top: 48px;
 }
 .baner-date p span{
     font-family: 'Open Sans';
-font-style: italic;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #5A7184;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5A7184;
 }
 .baner-date p span i{
-border-radius: 100%;
-background-color: #dfecff;
-color:#36B37E;
+    border-radius: 100%;
+    background-color: #dfecff;
+    color:#36B37E;
 }
 .felex-titele{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-content: center;
-flex-wrap: wrap;
-position: relative;
-left: 46px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 46px;
 }
 .felex-titele h4{
     font-weight: 700;
-font-size: 36px;
-line-height: 48px;
-color: 
-#183B56;
+    font-size: 36px;
+    line-height: 48px;
+    color:#183B56;
 }
 .felex-titele p{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #5A7184;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5A7184;
 }
 .felex-titele h5{
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-color: #183B56;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #183B56;
 }
 .arrow-left i{
     width: 50px;
@@ -254,24 +255,102 @@ color: #183B56;
     justify-content: center;
 }
 .box-blue p{
-text-align: center;
-color: #FFFFFF;
-font-weight: 400;
-font-size: 36px;
-line-height: 60px;
-position: relative;
-top: -128px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    position: relative;
+    top: -128px;
 }
 .box-blue span{
-position: relative;
-top: -107px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #FFFFFF;
+    position: relative;
+    top: -107px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 .img-text{
-margin-top: 118px;
+    margin-top: 118px;
+}
+.img-albom{
+    display: flex;
+}
+.img-left img{
+    width: 360px;
+    height: 480px;
+    border-radius: 16px;
+}
+.img-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+
+}
+.img-right-down{
+    border-radius: 16px;
+    height: 225px;
+    width: 360px;
+
+}
+.img-right-top{
+    border-radius: 16px;
+    height: 225px;
+    width: 360px;
+}
+.d-felex-titele-down{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.d-felex-titele-down h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #183B56;
+}
+.baner-date-down{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    position: relative;
+    top: 85px;
+}
+.baner-date-down-text p{
+    position: relative;
+    left: 35px;
+    
+}
+.baner-date-down-text p span i{
+    border-radius: 100%;
+    background-color: #dfecff;
+    color: #36B37E;
+}
+.baner-date-down-data{
+    position: relative;
+    right: 39px;
+    top: 6px;
+}
+.comments{
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #183B56;
+}
+.nami{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #183B56;
 }
